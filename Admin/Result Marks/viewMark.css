@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forCenter{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #0056b3;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #0056b3;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #0056b3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f8ff;
+}
+
+tr:hover {
+    background-color: #d0e4ff;
+}
+
+a {
+    /* display: inline-block; */
+    padding: 5px 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 70px;
+    background-color: #007bff; /* Blue background */
+    color: white;              /* White text */
+    text-decoration: none;      /* Remove underline */
+    border-radius: 4px;         /* Rounded corners */
+    font-size: 16px;            /* Font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+

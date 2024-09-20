@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="addStd.css">
+    <!-- Include Font Awesome for the eye icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Students</h1>
+       
+        <input type="text" placeholder="First Name" id="firstName">
+        <input type="text" placeholder="Last Name" id="lastName">
+        <input type="email" placeholder="Email" id="email">
+        
+        <!-- Password field with an eye icon -->
+        <div class="password-wrapper">
+            <input type="password" placeholder="Password" id="password">
+            <i class="fas fa-eye" id="togglePassword"></i>
+        </div>
+        
+        <input type="number" placeholder="CNIC" id="cnic">
+        <button onclick="signUp()">Register</button>
+
+        <!-- View List of Students button -->
+        <a href="viewStd.html" class="btn">View List of Students</a>
+
+        <!-- Add Student Marks button -->
+        <a href="../Result Marks/stdMarks.html" class="btn">Add Student Result</a>
+
+    </div>
+    
+    <script type="module" src="addStd.js"></script>
+</body>
+</html>
