@@ -47,6 +47,7 @@ const renderTable = () => {
       if (user.exists()) {
           var data = user.data(); // Access user data
           console.log(data);
+          console.log(data.cnic);
           
 
       } else {
